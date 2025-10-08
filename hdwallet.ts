@@ -13,6 +13,10 @@ describe("hdwallet", () => {
         key: "c87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3"
       },
       {
+        address: "0x627306090abab3a6e1400e9345bc60c78a8bef57",
+        private_key: "c87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3"
+      }
+      {
         address: "0xf17f52151ebef6c7334fad080c5704d77216b732",
         key: "ae6ae8e5ccbfb04590405997ee2d52d2b330726137b875053c36d94e974d162f"
       },
