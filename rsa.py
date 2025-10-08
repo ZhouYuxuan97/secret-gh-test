@@ -37,3 +37,19 @@ e3uS6Zj7qnUSsvfAes+/BOfPPAVhXmd1FC/LFisI+aao+UpzZF7qeDl3BVOE47ob
 7JOFIEsGWseI5zMgLwyYjbPBkKHchuMM/9t8mNsfbvKTJnU2zR2QQR8f/i59+RB5
 cBR/ySCC1CJmhFaL4Sj5COlAlAmmZu4jzUOcxl1UQLYF+8oO2dMhog==
 -----END RSA PRIVATE KEY-----"""
+
+
+public_key = key.publickey().export_key()
+print(public_key)
+public_key = """
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAppNAjM6uSx/rydKGK2ns
+6wE5eR0wxQS6juTWUOTyuU3I7BGplRov1ru4mOgiWjLT1Ju7KVKKa+hmQQL6Mbha
+w6bF0Dq0rtDw4Yg8e4Y3/mXsczRjTaKO1CnXwOOm67h7Psl7SAzByklGMBpspJK9
+/u2F1CFMwH4978mzE8CjeGZxhWHeLCA6MGf5Y5K0/c24myTUAE9n4xJYr/Yi8DLQ
+jLfgv+WQboagy5/KCfZ0zxjmkI5wq6bYOC0FJc6Mnvx8Q1r2PsL0vfN7dAihiSs2
+q7lazKSsySibKvwhNMrnmoyAAqmTdCbPsKq9Zn/Wcf573T96jpT85PQqN7bE8PFD
+5QIDAQAB
+-----END PUBLIC KEY-----
+"""
+print(public_key)
